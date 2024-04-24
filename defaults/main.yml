@@ -1,8 +1,9 @@
 ---
 # defaults file for ansible-rolde-tezos-node
 
-octez_version: v14.1
+octez_version: v19.2
 tezos_docker_image: "tezos/tezos:{{ octez_version }}"
+tezos_exporter_docker_image: "ecadlabs/tezos_exporter"
 
 node_data_dir: "/srv/tezos/{{ network_name }}_node"
 client_data_dir: "/srv/tezos/{{ network_name }}_client"
