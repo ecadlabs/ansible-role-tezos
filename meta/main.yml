@@ -7,13 +7,13 @@ galaxy_info:
 
   license: MIT
 
-  min_ansible_version: 2.4
+  min_ansible_version: "2.4"
 
   platforms:
-  - name: Debian
-    versions:
-    - buster
+    - name: Debian
+      versions:
+        - buster
 
-  galaxy_tags: ['blockchain', 'tezos']
+  galaxy_tags: ["blockchain", "tezos"]
 
 dependencies: []
